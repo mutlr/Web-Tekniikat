@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <div class="money-box">
+            <p class="amount">€</p>
+            <input type="text" name="" id="money">
+        </div>
+        <div class="slider-box">
+            <p>Tip:</p>
+            <input type="range" min="0" max="100" id="tip">
+            <div id="tip-percentage">0%</div>
+        </div>
+        <h1>Results</h1>
+        <div class="results-box">
+            <div class="box">
+                <p class="text">Tip amount</p>
+                <div id="tip-result"></div>
+            </div>
+            <div class="box">
+                <p class="text">Total bill with tip</p>
+                <div id="total"></div>
+            </div>
+        </div>
+    </div>
     <script src="js.js"></script>
 </body>
 </html>

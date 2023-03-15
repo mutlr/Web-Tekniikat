@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    border: 2px solid black;
+}
+.money-box {
+    display: flex;
+    width: 95%;
+    margin: 16px 0;
+}
+#money, #tip {
+    width: 100%;
+}
+.amount {
+    width: 20px;
+    background-color: rgb(164, 165, 165);
+    text-align: center  ;
+}
+.slider-box {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 95%;
+}
+.money {
+    border: 1px solid black;
+}
+#tip-percentage {
+    width: fit-content;
+    padding: 0 4px;
+    margin: 0 4px;
+    height: 24px;
+    text-align: center;
+    background-color: rgb(164, 165, 165);
+}
+.results-box {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border: 1px solid black;
+}
+.box div {
+    padding: 0 4px;
+}
+.box {
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid grey;
+}
+.text {
+    width: max-content;
+    padding: 0 4px;
+    height: 25px;
+    border-right: 1px solid black;
+    background-color: rgb(164, 165, 165);
+}
